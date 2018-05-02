@@ -1,0 +1,8 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+  body
+    h1= error.message
+    h2= error.status
+    pre #{error.stack}
